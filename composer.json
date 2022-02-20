@@ -1,0 +1,34 @@
+{
+    "name": "hxd/filemanager",
+    "description": "File manager for Laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ThaiNPH",
+            "email": "thai.nph@papay.vn"
+        }
+    ],
+    "keywords": [
+        "filemanager",
+        "laravelfilemanager",
+        "thainph"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thainph\\Filemanager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thainph\\Filemanager\\FileManagerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
