@@ -4,7 +4,7 @@ Filemanager is a file manager for laravel Base on `Thainph\Filemanager`.
 
 # Installation
 
-1. Config in app.php ` Thainph\Filemanager\FileManagerServiceProvider::class,`
+1. Config in app.php ` HXD\Filemanager\FileManagerServiceProvider::class,`
 2. Publish config file: `php artisan vendor:publish --tag=file-manager-config`
 3. Publish asset files: `php artisan vendor:publish --tag=file-manager-assets`
 4. Config guards, mimes... in `config/file-manager.php`

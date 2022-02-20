@@ -7,7 +7,7 @@ Route::group([
     'middleware' => ['web'],
     'prefix' => 'file-manager',
     'as' => 'file-manager.',
-    'namespace' => 'Thainph\Filemanager\Controllers'
+    'namespace' => 'HXD\Filemanager\Controllers'
 ], function() {
     Route::get('/browser', 'FileController@browser')->name('browser');
     Route::get('/discover', 'FileController@discover')->name('discover');
@@ -33,7 +33,7 @@ if (config('file-manager.anonymous_upload')) {
         ],
         'prefix' => 'file-manager',
         'as' => 'file-manager.',
-        'namespace' => 'Thainph\Filemanager\Controllers'
+        'namespace' => 'HXD\Filemanager\Controllers'
     ], function() {
         Route::options('/anonymous-upload', function () { return response()->json(); });
 

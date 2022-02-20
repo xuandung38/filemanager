@@ -4,14 +4,14 @@
     "type": "library",
     "authors": [
         {
-            "name": "ThaiNPH",
+            "name": "Thainph",
             "email": "thai.nph@papay.vn"
         }
     ],
     "keywords": [
         "filemanager",
         "laravelfilemanager",
-        "thainph"
+        "HXD"
     ],
     "license": "MIT",
     "require": {
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Thainph\\Filemanager\\": "src/"
+            "HXD\\Filemanager\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Thainph\\Filemanager\\FileManagerServiceProvider"
+                "HXD\\Filemanager\\FileManagerServiceProvider"
             ]
         }
     },

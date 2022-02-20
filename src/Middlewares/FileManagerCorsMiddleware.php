@@ -1,5 +1,5 @@
 <?php
-namespace Thainph\Filemanager\Middlewares;
+namespace HXD\Filemanager\Middlewares;
 
 use Closure;
 use Illuminate\Http\Request;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Thainph\Filemanager\Controllers;
+namespace HXD\Filemanager\Controllers;
 
 use Illuminate\Http\Request;
-use Thainph\Filemanager\Requests\ChunkUploadRequest;
-use Thainph\Filemanager\Services\FileService;
+use HXD\Filemanager\Requests\ChunkUploadRequest;
+use HXD\Filemanager\Services\FileService;
 
 class FileController extends Controller
 {

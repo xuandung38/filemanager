@@ -1,5 +1,5 @@
 <?php
-namespace Thainph\Filemanager;
+namespace HXD\Filemanager;
 
 use App\Http\Middleware\EncryptCookies;
 use App\Http\Middleware\VerifyCsrfToken;
@@ -8,8 +8,8 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Thainph\Filemanager\Middlewares\FileManagerMimeMiddleware;
-use Thainph\Filemanager\Middlewares\FileManagerCorsMiddleware;
+use HXD\Filemanager\Middlewares\FileManagerMimeMiddleware;
+use HXD\Filemanager\Middlewares\FileManagerCorsMiddleware;
 use Illuminate\Routing\Router;
 
 class FileManagerServiceProvider extends ServiceProvider

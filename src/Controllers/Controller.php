@@ -1,6 +1,6 @@
 <?php
 
-namespace Thainph\Filemanager\Controllers;
+namespace HXD\Filemanager\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

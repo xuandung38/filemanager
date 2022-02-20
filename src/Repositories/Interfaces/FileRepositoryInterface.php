@@ -1,5 +1,5 @@
 <?php
-namespace Thainph\Filemanager\Repositories\Interfaces;
+namespace HXD\Filemanager\Repositories\Interfaces;
 
 
 interface FileRepositoryInterface

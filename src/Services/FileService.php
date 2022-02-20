@@ -1,9 +1,9 @@
 <?php
-namespace Thainph\Filemanager\Services;
+namespace HXD\Filemanager\Services;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Thainph\Filemanager\Repositories\LocalRepository;
+use HXD\Filemanager\Repositories\LocalRepository;
 
 class FileService
 {

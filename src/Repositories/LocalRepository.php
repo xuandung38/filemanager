@@ -1,8 +1,8 @@
 <?php
-namespace Thainph\Filemanager\Repositories;
+namespace HXD\Filemanager\Repositories;
 
 use Illuminate\Support\Facades\Storage;
-use Thainph\Filemanager\Repositories\Interfaces\FileRepositoryInterface;
+use HXD\Filemanager\Repositories\Interfaces\FileRepositoryInterface;
 
 class LocalRepository implements FileRepositoryInterface
 {

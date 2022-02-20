@@ -1,5 +1,5 @@
 <?php
-namespace Thainph\Filemanager\Requests;
+namespace HXD\Filemanager\Requests;
 
 class ChunkUploadRequest extends BaseRequest
 {
